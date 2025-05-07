@@ -1,0 +1,2 @@
+class SunHistory < ApplicationRecord
+end
