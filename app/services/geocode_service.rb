@@ -18,7 +18,6 @@ class GeocodeService
     return nil unless res.is_a?(Net::HTTPSuccess)
 
     json_body = JSON.parse(res.body)
-    puts json_body
     { lat: json_body.first['lat'], lng: json_body.first['lon'] }
   end
 end
