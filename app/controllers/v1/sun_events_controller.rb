@@ -20,6 +20,6 @@ class V1::SunEventsController < ApplicationController
   end
 
   def has_missing_params?
-    sun_params[:city].blank? && sun_params[:start_date].blank? && sun_params[:end_date].blank?
+    sun_params[:city].blank? || sun_params[:start_date].blank? || sun_params[:end_date].blank?
   end
 end

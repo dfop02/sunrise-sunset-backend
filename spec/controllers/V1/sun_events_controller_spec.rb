@@ -5,6 +5,10 @@ RSpec.describe V1::SunEventsController, type: :controller do
 
   let(:json_response) { JSON.parse(response.body) }
 
+  before do
+    request.headers['BACKEND_API_KEY'] = ENV['BACKEND_API_KEY']
+  end
+
   describe 'GET #index' do
     let(:valid_params) do
       {
