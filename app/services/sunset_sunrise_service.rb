@@ -50,6 +50,7 @@ class SunsetSunriseService
     {
       'lisbon' => { lat: 38.7169, lng: -9.1399 },
       'berlin' => { lat: 52.52, lng: 13.405 },
+      'antarctica' => { lat: -72.822042, lng: 0},
       'rio de janeiro' => { lat: -22.9110137, lng: -43.2093727 }
     }[city]
   end

@@ -365,6 +365,7 @@ DEPENDENCIES
   rack-cors
   rails (~> 8.0.2)
   rspec-rails (~> 8.0)
+  rubocop
   rubocop-rails-omakase
   solid_cable
   solid_cache
