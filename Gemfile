@@ -38,6 +38,7 @@ group :development, :test do
   gem "pry-byebug"
   # Static analysis for security vulnerabilities [https://brakemanscanner.org/]
   gem "brakeman", require: false
+  gem "rubocop", require: false
   gem "rubocop-rails-omakase", require: false
 end
 
