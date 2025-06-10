@@ -8,7 +8,7 @@ gem "mysql2", "~> 0.5"
 gem "puma", ">= 5.0"
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem "jbuilder"
-gem "net-http", "~> 0.4.1"
+gem "net-http", "~> 0.6.0"
 gem "dotenv-rails", "~> 3.1", ">= 3.1.8"
 gem "rack-cors"
 
